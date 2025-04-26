@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakem Paneli - Makale Değerlendirme Sistemi</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <span class="navbar-brand">Makale Değerlendirme Sistemi</span>
+            <div class="ms-auto d-flex align-items-center">
+                <span id="reviewerInfo" class="text-light me-3"></span>
+                <button id="logoutButton" class="btn btn-outline-light">Çıkış Yap</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title mb-0">Değerlendirilecek Makaleler</h2>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Takip Kodu</th>
+                                <th>Başlık</th>
+                                <th>Anahtar Kelimeler</th>
+                                <th>Yükleme Tarihi</th>
+                                <th>Durum</th>
+                                <th>İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody id="articlesTableBody">
+                        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/reviewer_dashboard.js"></script>
+</body>
+</html> 

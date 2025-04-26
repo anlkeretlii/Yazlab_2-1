@@ -1,0 +1,88 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    padding: 1.5rem;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.btn-primary {
+    padding: 0.6rem 2rem;
+    font-weight: 500;
+}
+
+.alert {
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+/* Tablo stilleri */
+.table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Makale takip numarası stil */
+.tracking-number {
+    font-family: monospace;
+    background-color: #e9ecef;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+/* Durum badge'leri */
+.badge {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.badge-pending {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.badge-approved {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.badge-rejected {
+    background-color: #dc3545;
+    color: #fff;
+}
+
