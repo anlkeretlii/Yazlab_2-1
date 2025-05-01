@@ -1,4 +1,4 @@
-# Yazlab-2_1
+# Yazlab_2-1
  Kocaeli Üniversitesi Yazılım Labaratuvarı 
 Bu projenin amacı, akademik makalelerin anonimleştirilmesini sağlayan bir sistem geliştirmektir. 
 Akademik değerlendirme süreçlerinde çift-kör hakemlik (double-blind review) yöntemi kullanılarak, 
